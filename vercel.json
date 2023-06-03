@@ -2,5 +2,9 @@
   "version": 2,
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/server.js" }
-  ]
+  ],
+  "env": {
+    "USER_API_URL": "https://torre.bio/api/bios/",
+    "JOB_API_URL": "https://torre.co/api/suite/opportunities/"
+  }
 }
